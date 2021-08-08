@@ -1,0 +1,533 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Spartan', sans-serif;
+}
+.container .cloud{
+    position: absolute;
+    right: 100%;
+}
+@media(min-width:375px){
+    .container .text {
+        padding: 20px;
+        text-align: center;
+    }
+    .container .text h1{
+        color: hsl(300, 43%, 22%);
+        line-height: 30px;
+        font-weight: 800;
+    }
+    .container .text p{
+        font-size: 15px;
+        color: hsl(303, 10%, 53%);
+        font-weight: 400;
+        line-height: 25px;
+    }
+    .container .appraisal {
+        margin: 10px;
+    }
+    .container .appraisal .tiri1 , .tiri2 , .tiri3{
+        background-color: hsl(300, 24%, 96%);
+        border-radius: 10px;
+    }
+    .container .appraisal .stars{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 15px;
+    }
+    .container .appraisal .stars svg{
+        margin: 5px;
+    }
+    .container .appraisal p{
+        color: hsl(300, 43%, 22%);
+        font-size: 15px;
+        text-align: center;
+        padding-bottom: 15px;
+        font-weight: 800;
+    }
+    .container .cards{
+        margin-top: 70px;
+    }
+    .container .cards .card1 , .card2 , .card3{
+        display: flex;
+        padding: 30px;
+        margin-bottom: 15px;
+        background-color: hsl(300, 43%, 22%);
+        border-radius: 10px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .container .cards img{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+    }
+    .container .cards h3{
+        margin-left: 33px;
+        font-weight: 600;
+        color: white;
+        font-size: 15px;
+    }
+    .container .cards .v1{
+        color: hsl(333, 80%, 67%);
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    .container .cards p{
+        color: hsl(0, 0%, 100%);
+        line-height: 25px;
+        font-size: 15px;
+    }
+}
+@media(max-width:400px){
+    .container .text {
+        padding: 20px;
+        text-align: center;
+    }
+    .container .text h1{
+        color: hsl(300, 43%, 22%);
+        line-height: 43px;
+        font-weight: 800;
+    }
+    .container .text p{
+        font-size: 15px;
+        color: hsl(303, 10%, 53%);
+        font-weight: 400;
+        line-height: 25px;
+    }
+    .container .appraisal {
+        margin: 10px;
+    }
+    .container .appraisal .tiri1 , .tiri2 , .tiri3{
+        background-color: hsl(300, 24%, 96%);
+        border-radius: 10px;
+    }
+    .container .appraisal .stars{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 15px;
+    }
+    .container .appraisal .stars svg{
+        margin: 5px;
+    }
+    .container .appraisal p{
+        color: hsl(300, 43%, 22%);
+        font-size: 15px;
+        text-align: center;
+        padding-bottom: 15px;
+        font-weight: 800;
+    }
+    .container .cards{
+        margin-top: 70px;
+    }
+    .container .cards .card1 , .card2 , .card3{
+        display: flex;
+        padding: 30px;
+        margin-bottom: 15px;
+        background-color: hsl(300, 43%, 22%);
+        border-radius: 10px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .container .cards img{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+    }
+    .container .cards h3{
+        margin-left: 33px;
+        font-weight: 600;
+        color: white;
+        font-size: 15px;
+    }
+    .container .cards .v1{
+        color: hsl(333, 80%, 67%);
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    .container .cards p{
+        color: hsl(0, 0%, 100%);
+        line-height: 25px;
+        font-size: 15px;
+    }
+}
+@media(min-width:500px){ .container .text {
+    padding: 20px;
+    text-align: center;
+}
+.container .text h1{
+    color: hsl(300, 43%, 22%);
+    line-height: 30px;
+    font-weight: 800;
+}
+.container .text p{
+    font-size: 15px;
+    color: hsl(303, 10%, 53%);
+    font-weight: 400;
+    line-height: 25px;
+}
+.container .appraisal {
+    margin: 10px;
+}
+.container .appraisal .tiri1 , .tiri2 , .tiri3{
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+}
+.container .appraisal .stars{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15px;
+}
+.container .appraisal .stars svg{
+    margin: 5px;
+}
+.container .appraisal p{
+    color: hsl(300, 43%, 22%);
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: 800;
+}
+.container .cards{
+    margin-top: 70px;
+}
+.container .cards .card1 , .card2 , .card3{
+    display: flex;
+    padding: 30px;
+    margin-bottom: 15px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.container .cards img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.container .cards h3{
+    margin-left: 33px;
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+}
+.container .cards .v1{
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+    margin-top: 10px;
+}
+.container .cards p{
+    color: hsl(0, 0%, 100%);
+    line-height: 25px;
+    font-size: 15px;
+    }
+}
+@media(min-width:400px){
+    .container .text {
+        padding: 20px;
+        text-align: center;
+    }
+    .container .text h1{
+        color: hsl(300, 43%, 22%);
+        line-height: 30px;
+        font-weight: 800;
+    }
+    .container .text p{
+        font-size: 15px;
+        color: hsl(303, 10%, 53%);
+        font-weight: 400;
+        line-height: 25px;
+    }
+    .container .appraisal {
+        margin: 10px;
+    }
+    .container .appraisal .tiri1 , .tiri2 , .tiri3{
+        background-color: hsl(300, 24%, 96%);
+        border-radius: 10px;
+    }
+    .container .appraisal .stars{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 15px;
+    }
+    .container .appraisal .stars svg{
+        margin: 5px;
+    }
+    .container .appraisal p{
+        color: hsl(300, 43%, 22%);
+        font-size: 15px;
+        text-align: center;
+        padding-bottom: 15px;
+        font-weight: 800;
+    }
+    .container .cards{
+        margin-top: 70px;
+    }
+    .container .cards .card1 , .card2 , .card3{
+        display: flex;
+        padding: 30px;
+        margin-bottom: 15px;
+        background-color: hsl(300, 43%, 22%);
+        border-radius: 10px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .container .cards img{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+    }
+    .container .cards h3{
+        margin-left: 33px;
+        font-weight: 600;
+        color: white;
+        font-size: 15px;
+    }
+    .container .cards .v1{
+        color: hsl(333, 80%, 67%);
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    .container .cards p{
+        color: hsl(0, 0%, 100%);
+        line-height: 25px;
+        font-size: 15px;
+    }
+}
+@media(min-width:990px){
+    .container{
+        padding: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+    .container .text{
+        width: 352px;
+    }
+    .container .text h1{
+        color: hsl(300, 43%, 22%);
+        line-height: 43px;
+        font-weight: 800;
+    }
+    .container .text p{
+        font-size: 15px;
+        color: hsl(303, 10%, 53%);
+        font-weight: 400;
+        line-height: 25px;
+    }
+    .container .appraisal {
+        margin: 10px;
+        display: flex;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-direction: column;
+    }
+    .container .appraisal .tiri1 , .tiri2 , .tiri3{
+        background-color: hsl(300, 24%, 96%);
+        border-radius: 10px;
+        display: flex;
+        align-items: baseline;
+        padding-left: 19px;
+        padding-right: 66px;
+        height: 55px;
+        margin: 8px;
+    }
+    .container .appraisal .tiri2{
+        position: relative;
+        left: 45px;
+    }
+    .container .appraisal .tiri3{
+        position: relative;
+        left: 90px;
+    }
+    .container .appraisal .stars{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 15px;
+    }
+    .container .appraisal .stars svg{
+        margin: 5px;
+    }
+    .container .appraisal p{
+        color: hsl(300, 43%, 22%);
+        font-size: 15px;
+        text-align: center;
+        padding-bottom: 15px;
+        font-weight: 800;
+        margin-left: 30px;
+    }
+    .container .cards{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        margin-top: 78px;
+        }
+        .container .cards .card1 , .card2 , .card3{
+            display: flex;
+            padding: 30px;
+            margin-bottom: 15px;
+            background-color: hsl(300, 43%, 22%);
+            border-radius: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 15px;
+        }
+        .container .cards img{
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+        }
+        .container .cards h3{
+            margin-left: 33px;
+            font-weight: 600;
+            color: white;
+            font-size: 15px;
+        }
+        .container .cards .v1{
+            color: hsl(333, 80%, 67%);
+            font-weight: 400;
+            margin-top: 10px;
+        }
+        .container .cards p{
+            color: hsl(0, 0%, 100%);
+            line-height: 25px;
+            font-size: 12px;
+        }
+        .container .cards .card2{
+            margin-top: 40px
+        }
+        .container .cards .card3{
+            margin-top: 80px
+        }
+}
+@media(min-width:990px){
+    .container{
+        padding: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+    .container .text{
+        width: 352px;
+    }
+    .container .text h1{
+        color: hsl(300, 43%, 22%);
+        line-height: 43px;
+        font-weight: 800;
+    }
+    .container .text p{
+        font-size: 15px;
+        color: hsl(303, 10%, 53%);
+        font-weight: 400;
+        line-height: 25px;
+    }
+    .container .appraisal {
+        margin: 10px;
+        display: flex;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-direction: column;
+    }
+    .container .appraisal .tiri1 , .tiri2 , .tiri3{
+        background-color: hsl(300, 24%, 96%);
+        border-radius: 10px;
+        display: flex;
+        align-items: baseline;
+        padding-left: 19px;
+        padding-right: 66px;
+        height: 55px;
+        margin: 8px;
+    }
+    .container .appraisal .tiri2{
+        position: relative;
+        left: 45px;
+    }
+    .container .appraisal .tiri3{
+        position: relative;
+        left: 90px;
+    }
+    .container .appraisal .stars{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 15px;
+    }
+    .container .appraisal .stars svg{
+        margin: 5px;
+    }
+    .container .appraisal p{
+        color: hsl(300, 43%, 22%);
+        font-size: 15px;
+        text-align: center;
+        padding-bottom: 15px;
+        font-weight: 800;
+        margin-left: 30px;
+    }
+    .container .cards{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        margin-top: 78px;
+        }
+        .container .cards .card1 , .card2 , .card3{
+            display: flex;
+            padding: 30px;
+            margin-bottom: 15px;
+            background-color: hsl(300, 43%, 22%);
+            border-radius: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 15px;
+        }
+        .container .cards img{
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+        }
+        .container .cards h3{
+            margin-left: 33px;
+            font-weight: 600;
+            color: white;
+            font-size: 15px;
+        }
+        .container .cards .v1{
+            color: hsl(333, 80%, 67%);
+            font-weight: 400;
+            margin-top: 10px;
+        }
+        .container .cards p{
+            color: hsl(0, 0%, 100%);
+            line-height: 25px;
+            font-size: 12px;
+        }
+        .container .cards .card2{
+            margin-top: 40px
+        }
+        .container .cards .card3{
+            margin-top: 80px
+        }
+}
